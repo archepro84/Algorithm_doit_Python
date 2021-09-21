@@ -16,6 +16,7 @@ class Status(Enum):
 
 class Bucket:
     """해시를 구성하는 버킷 """
+
     # stat의 Default = Status.EMPTY
     def __init__(self, key: Any = None, value: Any = None, stat: Status = Status.EMPTY) -> None:
         """Init"""
